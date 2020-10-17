@@ -1,8 +1,57 @@
 body {
-    background-color: rgb(173, 119, 119);
+    background-color: rgb(209, 209, 209);
 
     text-align: center;
+}
 
+#header-background {
+    width: 100%;
+    height: 100px;
+    background:url("http://james-allen.ca/projects/lessons/1-html/img/okotoks-pizza-logo.png")
 }
 
 
+
+
+
+
+
+.contactus {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+  }
+
+
+
+
+
+div p {
+    background-color: yellow;
+  }
+
+  div > p {
+    background-color: purple;
+  }
+
+  li:first-of-type + li {
+    color: red;
+  }
+
+
+  a:hover {
+      background-color: brown;
+  }
+
+ a:active {
+     background-color: rgb(108, 106, 212)
+     color: blueviolet;
+ }
+ 
+ a:visited {
+     background-color: chartreuse;
+ }
+ 
+
+
+}
